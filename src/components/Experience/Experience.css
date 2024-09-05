@@ -11,6 +11,9 @@
     text-align: center;
     color: #312e3c;
 }
+.experience.express img{
+    border-radius: 50%;
+}
 .experience img{
     width: 200px;
     height: 200px;

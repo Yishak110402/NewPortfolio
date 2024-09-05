@@ -1,7 +1,7 @@
 import "./Experience.css"
 export default function Experience({name = 'Tech Name', level = "Beginner", image = ""}){
     return(
-        <div className="experience">
+        <div className={`experience ${name}`}>
             <div className="exp-image">
                 <img src={`./assets/experience/${image}`} alt=""/>
             </div>
