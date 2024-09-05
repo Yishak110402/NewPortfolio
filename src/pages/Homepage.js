@@ -1,6 +1,7 @@
 import BackendExperience from "../components/Homepage/BackendExperience/BackendExperience";
 import FrontendExperience from "../components/Homepage/FrontendExperience/FrontendExperience";
 import Hero from "../components/Homepage/Hero/Hero";
+import HomeToProjects from "../components/Homepage/HomeToProjects/HomeToProjects";
 
 export default function Homepage() {
   return (
@@ -8,6 +9,7 @@ export default function Homepage() {
       <Hero />
       <FrontendExperience />
       <BackendExperience />
+      <HomeToProjects />
     </>
   );
 }
