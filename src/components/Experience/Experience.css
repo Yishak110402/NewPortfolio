@@ -10,6 +10,7 @@
     padding: 4rem 2rem;
     text-align: center;
     color: #312e3c;
+    box-shadow: 8px 8px 10px #242424;
 }
 .experience.express img{
     border-radius: 50%;

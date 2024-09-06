@@ -1,0 +1,23 @@
+.testimonials{
+    padding: 2rem 6rem;
+    background-color: #cbbc99 ;
+    color: #312e3c;
+    padding-bottom: 4rem;
+}
+.testimonials h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+.testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial > div{
+    width: 50%;
+    text-align: center;
+}
+
+/* #cbbc99 Yellow */
+/* #312e3c Blue */
