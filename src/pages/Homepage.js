@@ -10,8 +10,8 @@ export default function Homepage() {
       <Hero />
       <FrontendExperience />
       <BackendExperience />
-      {/* <HomeToProjects /> */}
-      {/* <Testimonials /> */}
+      <HomeToProjects />
+      <Testimonials />
     </>
   );
 }
