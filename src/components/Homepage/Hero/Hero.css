@@ -15,17 +15,26 @@
 .hero .hero-txt h3 {
   font-size: 3rem;
   font-weight: 300;
+  transform: translateX(-10rem);
+  opacity: 0;
+  animation: slideRight 0.5s ease-in-out forwards;
 }
 .hero .hero-txt h1 {
   color: #cbbc99;
   font-family: "high tower text";
   font-size: 5rem;
   font-weight: 300;
+  transform: translateX(-10rem);
+  opacity: 0;
+  animation: slideRight 0.5s ease-in-out forwards;
 }
 .hero .hero-txt h4 {
   font-size: 2rem;
   color: #887d65;
   font-weight: 300;
+  transform: translateX(-10rem);
+  opacity: 0;
+  animation: slideRight 0.5s ease-in-out forwards;
 }
 .hero .hero-image {
   width: 40%;
@@ -41,16 +50,22 @@
   display: flex;
   gap: 1rem;
   margin-top: 1.5rem;
+  transform: translateX(-10rem);
+  opacity: 0;
+  animation: slideRight 0.5s ease-in-out forwards;
 }
 .hero .hero-links img{
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 .hero .hero-ctas{
-    width: 25%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  transform: translateY(10rem);
+  opacity: 0;
+  animation: slideRight 0.5s ease-in-out forwards;
 }
 .hero .hero-ctas button{
     padding: 0.5rem;
@@ -66,4 +81,11 @@
 .hero .hero-ctas button:nth-child(2){
     color: #312e3c; 
     background-color: #cbbc99;
+}
+
+@keyframes slideRight {
+  to{
+    opacity: 1;
+    transform: translate(0,0);
+  }
 }

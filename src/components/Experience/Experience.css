@@ -11,6 +11,10 @@
     text-align: center;
     color: #312e3c;
     box-shadow: 8px 8px 10px #242424;
+    transform: translateY(5rem);
+    animation: exp-animation linear forwards;
+    opacity: 0;
+    animation-timeline: view(65% 1%);
 }
 .experience.express img{
     border-radius: 50%;
@@ -29,4 +33,10 @@
     color: #605b73;
     font-family: "high tower text";
     font-weight: 200;
+}
+@keyframes exp-animation{
+    to{
+        transform: translate(0,0);
+        opacity: 1;
+    }
 }

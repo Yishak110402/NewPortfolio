@@ -1,0 +1,13 @@
+.copyright{
+    padding: 2rem;
+    text-align: center;
+    background-color: #cbbc99;
+    color: #312e3c;
+}
+.copyright p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* #cbbc99 Yellow */
+/* #312e3c Blue */
