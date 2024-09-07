@@ -23,7 +23,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="hero-image">
-        <img src="./assets/hero-image.png" alt="" />
+        <img src="https://i.postimg.cc/dVWjnj5R/20240420-163742.jpg" alt="" />
       </div>
     </div>
   );
