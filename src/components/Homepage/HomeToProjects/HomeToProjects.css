@@ -15,16 +15,21 @@
 .home-to-projects * {
   position: relative;
   z-index: 5;
+  transform: translateX(-8rem);
+  opacity: 0;
+  filter: blur(10px);
+}
+.home-to-projects.visible *{
+  transform: translateX(0);
+  opacity: 1;
+  filter: blur(0);
+  transition: all 0.5s ease;
 }
 .home-to-projects h1 {
   color: #cbbc99;
   font-size: 3.5rem;
   font-weight: 700;
   letter-spacing: 0.05rem;
-  transform: translateY(6rem);
-  opacity: 0;
-  animation: fade-in linear forwards;
-  animation-timeline: view(75% 5%);
 }
 
 .home-to-projects .shade {
@@ -35,6 +40,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 2;
+  transform: translate(0,0);
 }
 .home-to-projects button {
   color: #312e3c;
@@ -44,16 +50,6 @@
   border: none;
   font-size: 1rem;
   cursor: pointer;
-  transform: translateY(6rem);
-  opacity: 0;
-  animation: fade-in linear forwards;
-  animation-timeline: view(75% 25%);
-}
-@keyframes fade-in {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 /* #cbbc99 Yellow */
