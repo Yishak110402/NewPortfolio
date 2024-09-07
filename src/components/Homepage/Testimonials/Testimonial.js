@@ -9,16 +9,13 @@ export default function Testimonial() {
       </div>
       <div className="testimony">
         <p>
-          "" <br />
-          I had the pleasure of working with Yishak on the development of our
+          " I had the pleasure of working with Yishak on the development of our
           website for HALE:Human Rights and Inclusion Network. His unique design
           choices truly set our site apart, blending creativity with
           functionality in a way that resonates with our mission. Yishak’s
           innovative approach not only enhanced the visual appeal, but also
           improved visual experience. The quality of his work is exceptional,
-          reflecting his dedication and attention to detail.
-          <br />
-          ""
+          reflecting his dedication and attention to detail. "
         </p>
       </div>
     </div>

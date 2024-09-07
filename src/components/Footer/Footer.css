@@ -1,0 +1,102 @@
+.footer{
+    background-color: #312e3c;
+    padding: 2rem 6rem;
+    color: #cbbc99;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .logo{
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.footer > div{
+    width: 50%;
+}
+.footer .links{
+    text-align: center;
+}
+.footer .links ul{
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+}
+.footer .links h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+.footer .links ul li a{
+    color: #f7f7f7;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-block: 1rem;
+}
+.footer li{
+    list-style-type: none;
+}
+.footer .send-msg{
+    width: 40%;
+}
+.footer .send-msg *{
+    align-self: start;
+}
+.footer .send-msg form{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.footer .send-msg form h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    margin-top: 6rem;
+}
+.footer .send-msg form div{
+    display: flex;
+    flex-flow: column;
+}
+.footer .send-msg form label{
+    color: #f7f7f7;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 0.7rem;
+}
+.footer .send-msg form input{
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #f7f7f7;
+    font-size: 1rem;
+    color: #312e3c;
+    border: none;
+    padding: 0.5rem;
+}
+.footer .send-msg button{
+    margin-top: 1.2rem;
+    background-color: #cbbc99;
+    color: #312e3c;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.footer .send-msg form textarea{
+    width: 400px;
+    margin-bottom: 1rem;
+    background-color: #f7f7f7;
+    font-size: 0.9rem;
+    color: #312e3c;
+    border: none;
+    padding: 0.5rem;
+    height: 100px;
+    resize: none;
+    font-family: "Inter",sans-serif;
+    border-radius: 5px;
+}
+/* #cbbc99 Yellow */
+/* #312e3c Blue */

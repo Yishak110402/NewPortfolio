@@ -1,23 +1,45 @@
-.testimonials{
-    padding: 2rem 6rem;
-    background-color: #cbbc99 ;
-    color: #312e3c;
-    padding-bottom: 4rem;
+.testimonials {
+  padding: 2rem 6rem;
+  background-color: #cbbc99;
+  color: #312e3c;
+  padding-bottom: 4rem;
 }
-.testimonials h1{
-    font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 3rem;
+.testimonials h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
 }
-.testimonial{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.testimonial > div{
-    width: 50%;
-    text-align: center;
+.testimonial > div {
+  width: 50%;
+  text-align: center;
 }
-
+.testimonial img {
+  border-radius: 6px;
+}
+.testimonial h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+.testimonial h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #524f5e;
+}
+.testimonial p {
+  text-align: left;
+  font-style: italic;
+  font-size: 1.1rem;
+  font-weight: 800;
+  line-height: 1.6;
+}
+.testimonial br {
+  margin-block: 1rem;
+}
 /* #cbbc99 Yellow */
 /* #312e3c Blue */
