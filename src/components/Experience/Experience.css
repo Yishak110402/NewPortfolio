@@ -39,3 +39,23 @@
   font-family: "high tower text";
   font-weight: 200;
 }
+
+@media(max-width: 800px){
+  .experience{
+    width: 80%;
+  }
+}
+@media(max-width:550px){
+  .experience img{
+    width: 120px;
+    height: 120px;
+  }
+  .experience{
+    gap: 2rem;
+  }
+}
+@media(max-width:380px){
+  .experience{
+    width: 100%;
+  }
+}

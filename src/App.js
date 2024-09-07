@@ -11,8 +11,8 @@ export default function App(){
     <Routes>
         <Route path="/" element={<Homepage/>} />
     </Routes>
-    <Footer/>
-    <Copyright />
+    {/* <Footer/> */}
+    {/* <Copyright /> */}
    </BrowserRouter>
   )
 }
