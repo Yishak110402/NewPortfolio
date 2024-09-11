@@ -43,3 +43,66 @@
 }
 /* #cbbc99 Yellow */
 /* #312e3c Blue */
+
+@media(max-width: 1000px) { 
+  .testimonials h1{
+    font-size: 2.5rem;
+  }
+  .testimonials { 
+    padding: 2rem 2rem;
+  }
+  .testimonial h2{
+    font-size: 1.5rem;
+  } 
+  .testimonial h4{
+    font-size: 0.9rem;
+  }
+  .testimonial p{
+    font-size: 0.9rem;
+  }
+}
+@media(max-width:650px){
+  .testimonial{
+    gap: 2rem;
+  }
+  .testimonials h1{
+    font-size: 2rem;
+  }
+  .testimonial p{
+    line-height: 1.3;
+  }
+  .testimonial h2{
+    font: 1.3rem;
+  }
+}
+@media(max-width:550px){
+  .testimonial{
+    flex-flow: column-reverse;
+  }
+  .testimonial > div{
+    width: 100%;
+  }
+  .testimonial img{
+    width: 150px;
+    height: 150px;
+  }
+}
+@media(max-width:400px){
+  .testimonials{
+    padding: 2rem 1rem;
+  }
+  .testimonials h1{
+    font-size: 1.8rem;
+  }
+  .testimonial h2{
+    font-size: 1rem;
+  }
+  .testimonial h4{
+    font-size: 0.9rem;
+  }
+  .testimonial p{
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+}
