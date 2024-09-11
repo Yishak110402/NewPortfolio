@@ -36,7 +36,7 @@ export default function Footer() {
       </div>
       <div className="send-msg">
         <form>
-        <h3>Send me a message</h3>
+          <h3>Send me a message</h3>
           <div>
             <label>Email*</label>
             <input type="email" required />

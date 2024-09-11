@@ -9,5 +9,19 @@
     font-weight: 600;
 }
 
+@media(max-width:750px){
+    .copyright{
+        padding: 1rem;
+    }
+    .copyright p{
+        font-size: 1rem;
+    }
+}
+@media(max-width:500px){
+    .copyright p{
+        font-size: 0.8rem;
+    }
+}
+
 /* #cbbc99 Yellow */
 /* #312e3c Blue */
