@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import { useState } from "react";
+import { useContext } from "react";
+import { GeneralContext } from "../../hooks/GeneralContext";
 export default function Navbar() {
-    const [navOpen, setNavOpen] = useState(false)
+    const {navOpen, setNavOpen} = useContext(GeneralContext)
   return (
     <nav className="navbar">
       <div onClick={()=>(setNavOpen(!navOpen))} className="hamburger-icon">
