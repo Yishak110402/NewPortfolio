@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import Copyright from "./components/Copyright/Copyright";
 import { useContext, useEffect } from "react";
 import { GeneralContext } from "./hooks/GeneralContext";
+import Projects from "./pages/Projects";
 
 export default function App() {
   const {navOpen} = useContext(GeneralContext)
@@ -17,6 +18,7 @@ export default function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<Homepage />} />
+            <Route path="/projects" element={<Projects />} />
           </Routes>
           <Footer />
           <Copyright />

@@ -1,0 +1,17 @@
+.projects-header{
+    padding: 2rem 6rem;
+    background-color: #312e3c;
+    color: #cbbc99;
+}
+.projects-header h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.projects-header h3{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+/* #cbbc99 Yellow */
+/* #312e3c Blue */

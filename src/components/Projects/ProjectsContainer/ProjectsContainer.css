@@ -1,0 +1,44 @@
+.projects-container{
+    padding: 2rem 6rem;
+    color: #312e3c;
+    background-color: #cbbc99;
+}
+.project{
+    display: flex;
+    height: 50vh;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.project-image{
+    width: 50%;
+    height: 100%;
+}
+.project-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project-details{
+    width: 50%
+}
+.project-details h1{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.project-details p{
+    margin-bottom: 1rem;
+}
+.project-details a{
+    font-size: 1.1rem;
+    background-color: #312e3c;
+    color: #cbbc99;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 2rem;
+}
