@@ -1,0 +1,27 @@
+.contact-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    background-color: #cbbc99;
+    color: #312e3c;
+    padding: 2rem 6rem;
+    flex-wrap: wrap;
+}
+.option.phone{
+    width: 100%;
+}
+.option{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.option svg{
+    fill: #221f2c;
+    width: 60px;
+    height: 60px;
+}
+
+/* #cbbc99 Yellow */
+/* #312e3c Blue */

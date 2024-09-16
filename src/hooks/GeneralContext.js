@@ -34,6 +34,7 @@ export default function GeneralProvider({ children }) {
       link:"https://cinemagic-et.netlify.app"
     }
   ];
+
   return (
     <GeneralContext.Provider
       value={{

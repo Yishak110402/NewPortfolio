@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    width: 100vw;
+    /* width: 100vw; */
+    min-width: fit-content;
     height: 100vh;
     overflow-x: hidden;
     font-family: "Inter", sans-serif;
