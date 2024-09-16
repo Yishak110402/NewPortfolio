@@ -3,8 +3,6 @@ import "./ProjectsContainer.css";
 import { GeneralContext } from "../../../hooks/GeneralContext";
 export default function ProjectsContainer() {
   const { projects } = useContext(GeneralContext);
-  console.log(projects[0].details);
-
   return (
     <div className="projects-container">
       {projects.map((project) => (
@@ -17,7 +15,9 @@ export default function ProjectsContainer() {
             {project.details.map((detail) => (
               <p>{detail}</p>
             ))}
-            <a target="_blank" rel="noreferrer" href={project.link}>Visit Site</a>
+            <a target="_blank" rel="noreferrer" href={project.link}>
+              Visit Site
+            </a>
           </div>
         </div>
       ))}
