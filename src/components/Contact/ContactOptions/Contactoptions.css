@@ -22,6 +22,10 @@
     width: 60px;
     height: 60px;
 }
+.option a{
+    color: #1f1d26;
+    margin-top: 1rem;
+}
 
 /* #cbbc99 Yellow */
 /* #312e3c Blue */
