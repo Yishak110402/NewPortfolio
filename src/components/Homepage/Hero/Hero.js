@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom";
 import "./Hero.css";
 export default function Hero() {
+  const navigate = useNavigate()
   return (
     <div className="hero">
       <div className="hero-txt">
@@ -7,19 +9,25 @@ export default function Hero() {
         <h1>I'm Yishak Hailu</h1>
         <h4>Full Stack Developer</h4>
         <div className="hero-links">
-          <a href="https://www.google.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/yishak-hailu"
+            target="_blank"
+            rel="noreferrer">
             <img src="./assets/Linked-in-icon.png" alt="" />
           </a>
-          <a href="https://www.google.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/_y.i.s.h.a.k_"
+            target="_blank"
+            rel="noreferrer">
             <img src="./assets/Instagram-icon.png" alt="" />
           </a>
-          <a href="https://www.google.com" target="_blank" rel="noreferrer">
+          <a href="https://t.me/iamyishakg" target="_blank" rel="noreferrer">
             <img src="./assets/Telegram-icon.png" alt="" />
           </a>
         </div>
         <div className="hero-ctas">
-            <button>HIRE ME</button>
-            <button>MY PROJECTS</button>
+          <button onClick={()=>navigate("/contact")}>HIRE ME</button>
+          <button onClick={()=>navigate("/projects")}>MY PROJECTS</button>
         </div>
       </div>
       <div className="hero-image">

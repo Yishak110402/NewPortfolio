@@ -1,8 +1,13 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
 export const GeneralContext = createContext();
 
 export default function GeneralProvider({ children }) {
+  useEffect(function () {
+    window.scrollTo({
+      top: 0
+    })
+  },[])
   const [navOpen, setNavOpen] = useState(false);
   const projects = [
     {
