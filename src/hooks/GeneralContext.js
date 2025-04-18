@@ -53,7 +53,8 @@ export default function GeneralProvider({ children }) {
       details: [
         "Abysinnia Academy is a mobile app that takes any pdf that it is provided with and can create flashcards, quizzes, and also helps you be able to discuss about the content that you provided.",
         "The app is made with React Native for the frontend and Nodejs (Express) for the backend"
-      ]
+      ],
+      link:"https://github.com/Yishak110402/abyssinia-academy"
     }
   ];
 
