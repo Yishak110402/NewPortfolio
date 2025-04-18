@@ -46,6 +46,7 @@ export default function GeneralProvider({ children }) {
         "This site is purely frontend and made using react.",
       ],
       link: "https://cinemagic-et.netlify.app",
+      
     },
     {
       img: "https://i.postimg.cc/yN7jMGfy/Screenshot-20250418-203938-Abyssinia-Academy.jpg",
