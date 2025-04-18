@@ -32,7 +32,7 @@ export default function ProjectsContainer() {
               <p>{detail}</p>
             ))}
             <a target="_blank" rel="noreferrer" href={project.link}>
-              Visit Site
+              View Project
             </a>
           </div>
         </div>

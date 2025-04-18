@@ -4,6 +4,7 @@ import FrontendExperience from "../components/Homepage/FrontendExperience/Fronte
 import Hero from "../components/Homepage/Hero/Hero";
 import HomeToProjects from "../components/Homepage/HomeToProjects/HomeToProjects";
 import Testimonials from "../components/Homepage/Testimonials/Testimonials";
+import AppDevelopmentExperience from "../components/Homepage/AppDevelopmentExperience/AppDevelopmentExperience";
 
 export default function Homepage() {
   useEffect(function () {
@@ -16,6 +17,7 @@ export default function Homepage() {
       <Hero />
       <FrontendExperience />
       <BackendExperience />
+      <AppDevelopmentExperience />
       <HomeToProjects />
       <Testimonials />
     </>

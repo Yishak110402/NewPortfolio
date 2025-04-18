@@ -1,8 +1,8 @@
-.frontend-experience{
+.app-experience{
     padding: 2rem 6rem;
     background-color: #cbbc99;
 }
-.frontend-experience h1{
+.app-experience h1{
     font-size: 2.5rem;
     color: #312e3c;
     font-weight: 300;
@@ -10,13 +10,13 @@
     opacity: 0;
     filter: blur(15px);
 }
-.frontend-experience h1.visible{
+.app-experience h1.visible{
     transform: translateY(0);
     opacity: 1;
     filter: blur(0);
     transition: all 0.5s ease;
 }
-.front-exp-container{
+.app-exp-container{
     display: flex;
     gap: 1rem;
     margin-top: 3rem;
@@ -24,26 +24,23 @@
     flex-wrap: wrap;
 }
 @media(max-width:1000px){
-    .frontend-experience{
-        padding: 2rem 1rem;
+    .app-experience{
+        padding: 2rem 2rem;
     }
 }
 @media(max-width:800px){
-    .frontend-experience h1{
+    .app-experience h1{
         font-size: 1.8rem;
     }
 }
 @media(max-width:450px){
-    .frontend-experience h1{
+    .app-experience h1{
         font-size: 1.3rem;
     }
 }
 @media(max-width:380px){
-    .frontend-experience{
+    .app-experience{
         padding: 2rem 1rem;
     }
 }
 
-
-/* #cbbc99 Yellow */
-/* #312e3c Blue */
