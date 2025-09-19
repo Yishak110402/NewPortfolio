@@ -11,7 +11,16 @@ export default function GeneralProvider({ children }) {
   const [navOpen, setNavOpen] = useState(false);
   const projects = [
     {
-      img: "https://i.postimg.cc/dV5Z0SsB/Screenshot-2025-04-18-203255.png",
+      img:"https://i.postimg.cc/W34LSx0w/sidama-youth-screenshot.png",
+      name:"Sidama Youth Council",
+      details:[
+        "Sidama Youth Council's website was built with React as a frontend and PHP as the backend.",
+        'I was fully responsible in the designing, building and  deployment of the website.'
+      ],
+      link:"https://www.sidamayouthcouncil.com"
+    },
+    {
+      img: "https://i.postimg.cc/8zyqct2F/keab-screenshot.png",
       name: "KEAB Africa",
       details: [
         "KEAB Africa Community Development and Human Rights Organization (KACDHRO) is a prominent civil society organization located in Hawassa, Ethiopia.",
@@ -20,7 +29,7 @@ export default function GeneralProvider({ children }) {
       link: " https://www.keabafrica.com"
     },
     {
-      img: "https://i.postimg.cc/Y2Y4GWt9/HALE-Screenshot.png",
+      img: "https://i.postimg.cc/hjJgcHhP/hale-screenshot.png",
       name: "HALE:Human Rights and Inclusion",
       details: [
         "HALE: Human Rights and Inclusion Network (H-HRIN) is a non-governmental, non-partisan organization dedicated to advancing human rights and fostering inclusion.",
@@ -30,7 +39,7 @@ export default function GeneralProvider({ children }) {
     },
 
     {
-      img: "https://i.postimg.cc/rmBrk0V2/Screenshot-2025-04-18-202935.png",
+      img: "https://i.postimg.cc/hvPNtyLv/writewave-screenshot.png",
       name: "WriteWave",
       details: [
         "WriteWave is a blog site that allows users to write, read, and comment on blog posts.",
@@ -39,7 +48,7 @@ export default function GeneralProvider({ children }) {
       link: "https://writewave.netlify.app",
     },
     {
-      img: "https://i.postimg.cc/PJ9KRvFN/Screenshot-2024-09-15-191212.png",
+      img: "https://i.postimg.cc/2SBMyBZQ/cinemagic-screenshot.png",
       name: "Cinemagic",
       details: [
         "Cinemagic is a movie ticket booking website where u can easily book tickets for your favorite movies.",
