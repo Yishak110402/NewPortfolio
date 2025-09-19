@@ -24,7 +24,7 @@ export default function BackendExperience() {
         <Experience name="Node JS" level="Advanced" image="node-icon.png" />
         <Experience name="Express" level="Advanced" image="express-icon.png" />
         <Experience name="MongoDB" level="Advanced" image="mongodb-icon.png" />
-        <Experience name="Asp Net Core" level="Intermediate" image=" aspnetcore-logo.png" />
+        <Experience name="Asp Net Core" level="Intermediate" image="aspnetcore-logo.png" />
         <Experience name="Laravel" level="Intermediate" image="laravel-logo.svg" />
       </div>
     </div>
