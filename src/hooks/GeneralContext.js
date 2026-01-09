@@ -17,7 +17,7 @@ export default function GeneralProvider({ children }) {
         "Kayo Properites website was built using react for the frontend and Laravel for the backend",
         'I was fully responsible in the designing, building and  deployment of the website.'
       ],
-      link:"https://www.sidamayouthcouncil.com"
+      link:"https://www.kayoproperties-et.com"
     },
     {
       img:"https://i.postimg.cc/W34LSx0w/sidama-youth-screenshot.png",
