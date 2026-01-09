@@ -11,6 +11,15 @@ export default function GeneralProvider({ children }) {
   const [navOpen, setNavOpen] = useState(false);
   const projects = [
     {
+      img:"https://i.postimg.cc/CLcpxQ2x/Screenshot-2026-01-09-111401.png",
+      name:"Kayo Properties",
+      details:[
+        "Kayo Properites website was built using react for the frontend and Laravel for the backend",
+        'I was fully responsible in the designing, building and  deployment of the website.'
+      ],
+      link:"https://www.sidamayouthcouncil.com"
+    },
+    {
       img:"https://i.postimg.cc/W34LSx0w/sidama-youth-screenshot.png",
       name:"Sidama Youth Council",
       details:[
